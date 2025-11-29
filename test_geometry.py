@@ -9,7 +9,7 @@ from geometry import (area_rect, perimeter_rect, diagonal_rect,is_square,scale_r
 class GeometryTestCase(unittest.TestCase):
 
     def test_area_normal(self):
-        self.assertEqual(area_rect(5, 10), 5)
+        self.assertEqual(area_rect(5, 10), 50)
 
     def test_area_negative(self):
         self.assertIsNone(area_rect(-3, 10))
